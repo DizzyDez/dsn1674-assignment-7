@@ -41,36 +41,52 @@ nav li {
   float: left;
   width: 25%;
   display: inline-block;
-  }
+}
 
 .masthead {
-  padding-top: 4em;
-  background-image: url("../images/beetlevector.svg"), url("../images/subtle_white_mini_waves.png");
-  background-size: 50px auto, 100px auto;
-  background-repeat: repeat-x, repeat;
-  background-position: center 10px, left top;
+  padding-top: 1em;
+  background-image: url("../images/beetlevector.svg"), url("../images/beetlevector.svg"), url("../images/subtle_white_mini_waves.png");
+  background-size: 45px auto, 45px auto, 100px auto;
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: 30px 10px, 300px 10px, left top;
   text-align: center;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  font-size: 1.25rem;
 }
 
 h1 {
   margin: 0;
+  font-size: 3em;
 }
 
 
-figure {
-  margin: 0;
-  position:relative;
+.dirt {
+  position: relative;
+  overflow: hidden;
+  background:
+    linear gradient(to top, rgba(0,0,0,0.7), transparent) no-repeat center bottom / 100% 50%,
+    url("images/rocks.jpg") no-repeat center top / cover;
+  padding-top: 60%;
 }
 
-figcaption {
+.dirt-content {
   color: #fff;
   width: 100%;
+  font-size: 2em;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: -1px 1px 4px rgba(0,0,0,0.8), 1px 1px 4px rgba (0,0,0,0.8);
+
+  padding: 0 1rem;
   position: absolute;
   bottom: 20%;
-  text-align: center;
-  font-size: 1.5em;
-  background-image: linear-gradient(to top, #000, );
+  margin:20px;
 }
+
 .grid {
   overflow: hidden;
 }
@@ -78,17 +94,13 @@ figcaption {
 .unit {
   float: left;
   width: 50%;
-
-}
-.box {
-  background-color: #3b3a33;
-  padding: 1em;
-  text-align: center;
+  display: relative;
 }
 
 .btn {
   display: inline-block;
   position: absolute;
+
   font-size: 1.25rem;
   padding:0.5em 1em;
   text-align: center;
@@ -110,4 +122,5 @@ footer {
 
 .bottom-beetle {
   width: 10%;
+
 }
