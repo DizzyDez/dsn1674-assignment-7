@@ -89,16 +89,25 @@ figcaption {
 .btn {
   display: inline-block;
   position: absolute;
-
+  font-size: 1.25rem;
   padding:0.5em 1em;
-  text-align:none;
+  text-align: center;
   color:#fff;
   background-color: #0f0;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 20px;
   background-image: linear-gradient(to bottom, #0f0, #388200);
 }
 
 .btn:hover {
   background-image: linear-gradient(to bottom, #388200, #214d00);
+}
+
+footer {
+  background-color: rgba(81, 34, 0, 0.5);
+  text-align: center;
+}
+
+.bottom-beetle {
+  width: 10%;
 }
