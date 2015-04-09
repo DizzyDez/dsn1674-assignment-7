@@ -1,17 +1,53 @@
 body {
   margin: 0;
+  font-family: 'Dosis', sans-serif;
+}
+
+main {
+  margin: 0;
+}
+
+img {
+  display:block;
+  width:100%;
 }
 
 nav ul {
-  background-color: #755136;
+  padding:0;
   color: white;
-  display:  block;
+  display: block;
+  margin: 0;
+  font-size: 1.25rem;
+  list-style-type: none;
+  text-align: center;
+  overflow: hidden;
 }
+
+nav a {
+  display:  inline-block;
+  background-color: rgba(81, 34, 0, 0.5);
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 0.4rem 0;
+  width: 100%;
+}
+
+nav a:hover {
+  background-color: #512200;
+}
+
+nav li {
+  float: left;
+  width: 25%;
+  display: inline-block;
+  }
+
 .masthead {
   padding-top: 4em;
   background-image: url("../images/beetlevector.svg"), url("../images/subtle_white_mini_waves.png");
-  background-size: 75px auto, 100px auto;
-  background-repeat: no-repeat, repeat;
+  background-size: 50px auto, 100px auto;
+  background-repeat: repeat-x, repeat;
   background-position: center 10px, left top;
   text-align: center;
 }
@@ -20,7 +56,49 @@ h1 {
   margin: 0;
 }
 
-img {
-  display:block;
-  width:100%;
+
+figure {
+  margin: 0;
+  position:relative;
+}
+
+figcaption {
+  color: #fff;
+  width: 100%;
+  position: absolute;
+  bottom: 20%;
+  text-align: center;
+  font-size: 1.5em;
+  background-image: linear-gradient(to top, #000, );
+}
+.grid {
+  overflow: hidden;
+}
+
+.unit {
+  float: left;
+  width: 50%;
+
+}
+.box {
+  background-color: #3b3a33;
+  padding: 1em;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  position: absolute;
+
+  padding:0.5em 1em;
+  text-align:none;
+  color:#fff;
+  background-color: #0f0;
+  text-decoration: none;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, #0f0, #388200);
+}
+
+.btn:hover {
+  background-image: linear-gradient(to bottom, #388200, #214d00);
 }
