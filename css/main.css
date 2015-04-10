@@ -117,11 +117,11 @@ h1 {
 }
 
 .btn-1 {
-  bottom: 1em;
+  bottom: 12em;
 
 }
 .btn-2 {
-  bottom: -10em;
+  bottom: 4em;
 }
 
 .btn-1:hover,.btn-2:hover {
