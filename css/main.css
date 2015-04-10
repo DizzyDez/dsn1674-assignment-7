@@ -10,6 +10,7 @@ main {
 img {
   display: block;
   width: 100%;
+
 }
 
 nav ul {
@@ -47,20 +48,22 @@ nav li {
 .masthead {
   padding-top: 1em;
   background-image: url("../images/beetlevector.svg"), url("../images/beetlevector.svg"), url("../images/subtle_white_mini_waves.png");
-  background-size: 45px auto, 45px auto, 100px auto;
+  background-size: 40px auto, 40px auto, 100px auto;
   background-repeat: no-repeat, no-repeat, repeat;
-  background-position: 30px 10px, 300px 10px, left top;
+  background-position: 8% 50%, 92% 50%, left top;
   text-align: center;
-  padding: 0;
+  padding: 1rem;
 }
 
 p {
   margin: 0;
+  padding: 0 3rem 0 3rem;
 }
 
 h1 {
   margin: 0;
   font-size: 3em;
+  color: #512200;
 }
 
 
@@ -71,6 +74,7 @@ h1 {
     linear-gradient(to top, rgba(0,0,0,0.5), transparent) no-repeat center bottom / 100% 70%,
     url("../images/rocks.jpg") no-repeat center top / cover;
   padding-top: 60%;
+
 }
 
 .dirt-content {
@@ -79,9 +83,8 @@ h1 {
   font-size: 1.25em;
   font-weight: 600;
   text-align: center;
-  text-shadow: -1px 1px 4px rgba(0,0,0,0.8), 1px 1px 4px rgba (0,0,0,0.8);
 
-  padding: 0 1.5rem 0 1.5rem;
+  padding: 0;
   position: absolute;
   bottom: 10%;
   margin:0;
@@ -97,18 +100,25 @@ h1 {
   display: relative;
 }
 
-.btn {
+.btn-1,
+.btn-2 {
   display: inline-block;
   position: absolute;
-
-  font-size: 1.25rem;
-  padding:0.5em 1em;
+  bottom: 40px;
+  font-size: 1rem;
+  padding:0.35em 1.5em;
   text-align: center;
   color:#fff;
   background-color: #6fc000;
   text-decoration: none;
   border-radius: 20px;
   background-image: linear-gradient(to bottom, #6fc000, #388200);
+
+}
+
+.btn-1 {
+  bottom: 155px;
+
 }
 
 .btn:hover {
@@ -117,10 +127,11 @@ h1 {
 
 footer {
   background-color: rgba(81, 34, 0, 0.5);
-  text-align: center;
+  padding: .5em 0 .5em 0;
+  margin: 0;
 }
 
 .bottom-beetle {
-  width: 10%;
-
+  width: 5%;
+  margin: 0 auto;
 }
