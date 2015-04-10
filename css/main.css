@@ -102,9 +102,9 @@ h1 {
 
 .btn-1,
 .btn-2 {
-  display: inline-block;
+  display: inline;
   position: absolute;
-  bottom: 40px;
+  bottom: -250px;
   font-size: 1rem;
   padding:0.35em 1.5em;
   text-align: center;
@@ -117,11 +117,14 @@ h1 {
 }
 
 .btn-1 {
-  bottom: 155px;
+  bottom: 1em;
 
 }
+.btn-2 {
+  bottom: -10em;
+}
 
-.btn:hover {
+.btn-1:hover,.btn-2:hover {
   background-image: linear-gradient(to bottom, #388200, #214d00);
 }
 
